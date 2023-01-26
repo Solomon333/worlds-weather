@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #555555ee;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 120%;
+    font-weight: bold;
+}
+.imgflex{
+    display: flex;
+    align-items: center;
+}
+.card{
+    background: #b9ddf5ee;
+    padding: 2rem;
+    border-radius: 30px;
+    border: none;
+    width: 100%;
+    max-width: 420px;
+    margin: 1rem;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+    opacity: 0.8;
+}
+.card:hover{
+    background: #6ebce4;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h1, .temp{
+    margin: 0;
+}
+button{
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    outline: none;
+    cursor: pointer;
+    background: #d3d3d3;
+    transition: 0.8s ease-in-out;
+
+}
+.search-bar{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    background: #d2d2d2;
+    color: #000e;
+    font-family: inherit;
+    font-size: 120%;
+    width: 100%;
+}
+button:hover{
+    background: #7c7c7c6c;    
+}
