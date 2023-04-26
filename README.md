@@ -1,4 +1,4 @@
-Weather webApp :
+WEATHER-WEBAPP :
 
 - using openweatherapp API. 
 - include search bar.
